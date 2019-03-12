@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p7-euler", "p7-euler.vcxproj", "{D786C349-B28B-4DCA-A67F-C598AA62B584}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p7-euler-test", "..\p7-euler-test\p7-euler-test.vcxproj", "{8A633A1D-0932-486B-A798-09F6E2E62029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D786C349-B28B-4DCA-A67F-C598AA62B584}.Release|x64.Build.0 = Release|x64
 		{D786C349-B28B-4DCA-A67F-C598AA62B584}.Release|x86.ActiveCfg = Release|Win32
 		{D786C349-B28B-4DCA-A67F-C598AA62B584}.Release|x86.Build.0 = Release|Win32
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Debug|x64.ActiveCfg = Debug|x64
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Debug|x64.Build.0 = Debug|x64
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Debug|x86.Build.0 = Debug|Win32
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Release|x64.ActiveCfg = Release|x64
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Release|x64.Build.0 = Release|x64
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Release|x86.ActiveCfg = Release|Win32
+		{8A633A1D-0932-486B-A798-09F6E2E62029}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
