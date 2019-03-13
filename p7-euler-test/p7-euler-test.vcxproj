@@ -43,6 +43,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="prime_checker_test.cpp" />
+    <ClCompile Include="prime_numbers_test.cpp" />
     <ClCompile Include="remember_numbers_test.cpp" />
   </ItemGroup>
   <ItemGroup>

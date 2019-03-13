@@ -10,7 +10,7 @@ template <typename T_key, typename T_value>
 class RememberNumbers : public IRememberNumbers<typename T_key, typename T_value>
 {
 public:
-	RememberNumbers(T_value test_key_function(T_key number))
+	RememberNumbers(std::function<T_value(T_key)> test_key_function)
 	{
 		test_number_key_function = test_key_function;
 	}
