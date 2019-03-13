@@ -39,4 +39,11 @@ TEST_F(PrimeCheckerTesting, AdditionalPrimeNumberTests) {
 }
 
 
+TEST(PrimeCheckerStaticTesting, PrimeNumbersTest)
+{
+	ASSERT_TRUE(PrimeChecker::is_prime_number_static(11));
+	ASSERT_TRUE(PrimeChecker::is_prime_number_static(17));
+	ASSERT_FALSE(PrimeChecker::is_prime_number_static(21));
+}
+
 

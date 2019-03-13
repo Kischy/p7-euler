@@ -12,9 +12,14 @@
 class PrimeChecker
 {
 public:
-	bool is_prime_number(unsigned long long number) 
+	bool is_prime_number(unsigned long long number)
 	{
 		return remember_primes.calc_and_get_number(number);
+	}
+
+	static bool is_prime_number_static(unsigned long long number)
+	{
+		return PrimeChecker::is_prime(number);
 	}
 
 

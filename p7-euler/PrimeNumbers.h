@@ -23,7 +23,6 @@ public:
 
 private:
 	RememberNumbers<unsigned long long, unsigned long long> remember_primes_and_positions{ std::bind(&PrimeNumbers::get_prime_at_position, this,std::placeholders::_1) };
-	PrimeChecker primechecker;
 
 
 	unsigned long long get_prime_at_position(unsigned long long position)
@@ -34,7 +33,7 @@ private:
 
 		while (prime_to_be_found_at_position != ULLONG_MAX)
 		{
-			if (primechecker.is_prime_number(prime_to_be_found_at_position) == true)
+			if (PrimeChecker::is_prime_number_static(prime_to_be_found_at_position) == true)
 			{
 				current_position++;
 
