@@ -25,7 +25,7 @@ private:
 	RememberNumbers<unsigned long long, unsigned long long> remember_primes_and_positions{ std::bind(&PrimeNumbers::get_prime_at_position, this,std::placeholders::_1) };
 
 
-	unsigned long long get_prime_at_position(unsigned long long position)
+	unsigned long long get_prime_at_position(unsigned long long position) const
 	{
 		if (position == 0) return 0;
 
